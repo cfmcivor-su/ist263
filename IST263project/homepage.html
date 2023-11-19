@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boston Bruins - Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 40px;
+            background-color: #000;
+            color: #fff;
+        }
+        body {
+            background-color: gold;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav li {
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .main-content {
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Style for the main image */
+        .main-image {
+            width: 90%;
+            max-width: 600px; /* Adjust the maximum width as needed */
+            height: auto;
+            align-items: left;
+        }
+
+        /* Style for the recent news section */
+        .recent-news {
+            max-width: 800px; /* Adjust the maximum width as needed */
+            margin-top: 20px;
+        }
+
+        /* Style for the smaller images */
+        .small-image {
+            width: 100%;
+            max-width: 400px; /* Adjust the maximum width as needed */
+            height: auto;
+            margin-top: 20px;
+           
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Home</h1>
+        <nav>
+            <ul>
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="ourteam.html">Our Team</a></li>
+                <li><a href="bruinhistory.html">Team History</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="main-content">
+        <!-- Main Image -->
+        <img src="../images/recent news.jpg" alt="Main Image" class="main-image">
+
+        <!-- Recent News Section -->
+        <section class="recent-news">
+            <h2>Recent News</h2>
+            <p>In recent news Bruin's winger Milan Lucic, is set to appear in court this week to face a charge of assault and battery on a family member. Lucic is 35 years old and will be called infront of the court Monday or Tuesday in Boston.</p>
+        </section>
+
+        <img src="../images/recent news2.jpg" alt="Small Image 1" class="small-image">
+        <img src="../images/recent new3.webp" alt="Small Image 2" class="small-image">
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Boston Bruins. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
