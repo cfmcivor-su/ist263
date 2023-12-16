@@ -43,6 +43,10 @@
             margin-right: 100px;
         }
 
+        .team-stats p {
+            line-height: 20;
+        }
+
         table {
             width: 100%;
             border-collapse: collapse;
@@ -52,12 +56,18 @@
         th, td {
             border: 1px solid grey;
             padding: 10px;
-            text-align: left;
+            text-align: center;
         }
 
         th {
             background-color: gold;
             color: black;
+        }
+
+        tr:hover {
+            transform: scale(1.1);
+            transform-origin: center; /* Adjust the scale factor as needed */
+            transition: transform 0.4s ease-in-out; /* Smooth transition effect */
         }
     </style>
 </head>
@@ -78,11 +88,9 @@
 
     <section id="player-stats">
         <h2>Roster</h2>
-        <h3>Forwards</h3>
         <p> <section id="team-stats">
-            <h2>Our Team Stats</h2>
             <p>Welcome to the center of the Boston Bruins' ice action. Each player on the current squad has detailed bio’s available here, allowing you to get a full picture of how they are performing throughout the season.</p>
-
+            <h3>Forwards</h3>
         <table>
             <thead>
                 
@@ -333,21 +341,111 @@
 
             </tbody>
         </table>
+
+        <table>
+            <thead>
+                
+                <tr>
+                    <h4>Bruins Directory</h4>
+                    <th>Name</th>
+                    <th>Position</th>
+                    <th>Born</th>
+                </tr>
+            </thead>
+                <tbody>
+                <tr>
+                    <td>Jeremy Jacobs</td>
+                    <td>Owner</td>
+                    <td>January 21, 1940</td>
+                </tr>
+                <tr>
+                    <td>Charlie Jacobs</td>
+                    <td>Chief Executive Officer</td>
+                    <td>September 16, 1971</td>
+                </tr>
+                <tr>
+                    <td>Cam Neely</td>
+                    <td>President</td>
+                    <td>June 6, 1965</td>
+                </tr>
+                <tr>
+                    <td>Don Sweeney</td>
+                    <td>General Manager</td>
+                    <td>August 17, 1966</td>
+                </tr>
+                <tr>
+                    <td>Jim Montgomery</td>
+                    <td>Head Coach</td>
+                    <td>January 24, 1955</td>
+                </tr>
+                <tr>
+                    <td>Joe Sacco</td>
+                    <td>Assistant Coach</td>
+                    <td>Febuary 4, 1969</td>
+                </tr>
+                <tr>
+                    <td>Chris Kelly</td>
+                    <td>Assistant Coach</td>
+                    <td>November 11, 1980</td>
+                </tr>
+                <tr>
+                    <td>John Mclean</td>
+                    <td>Assistant Coach</td>
+                    <td>April 29, 1965</td>
+                </tr>
+                <tr>
+                    <td>Bob Essensa</td>
+                    <td>Goaltending Coach</td>
+                    <td>January 14, 1965</td>
+                </tr>
+                <tr>
+                    <td>Dustin Stuck</td>
+                    <td>Head Athletic Trainer</td>
+                    <td>1992</td>
+                </tr>
+                
+                
+
+            </tbody>
+        </table>
     </section>
 
     <section id="team-stats">
             <h2>Our Team Stats</h2>
             <p>The Boston Bruins are a team, not just a collection of talented individuals. Here, you can examine our performance as a whole and compare it to that of our rivals.</p>
-    
+            <table>
+                <thead>
+                    <tr>
+                        <th>Wins</th>
+                        <th>Losses</th>
+                        <th>Ties</th>
+                    </tr>
+                </thead>
+                    <tbody>
+                    <tr>
+                        <td>18</td>
+                        <td>5</td>
+                        <td>3</td>
+                    </tr>
+                </tbody>
+            </table>
+        <h2>Offense Per Game</h2>
             <ul>
-                <li>Wins: 13</li>
-                <li>Losses: 1</li>
-                <li>Ties: 2</li>
+                <li>Shots on Goal: 31.7</li>
+                <li>Goals Scored: 3.31</li>
                 <li>Powerplay %: 23.6%</li>
-                <li>Penalty Kill %: 91.5%</li>
+                <li>Shooting %: 10.4%</li>
+                <li>Faceoff %: 51%</li>
+            </ul>
+        <h2>Defense Per Game</h2>
+            <ul>
+                <li>Shots on Goal Allowed: 32</li>
+                <li>Goals Allowed: 2.5</li>
+                <li>Penalty Kill %: 89.9%</li>
+                <li>Penalty Minutes: 10.4</li>
             </ul>
     
-            <p>Our team statistics show the bigger picture of our season, including our wins and losses as well as how well our special team’s performance. Follow our development and learn the statistics that characterize our journey.</p>
+            <p><strong>Our team statistics show the bigger picture of our season, including our wins and losses as well as how well our special team’s performance. Follow our development and learn the statistics that characterize our journey.</strong></p>
     </section>
 
     <footer>

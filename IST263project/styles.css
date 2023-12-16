@@ -16,7 +16,6 @@ nav ul {
     padding: 0;
     display: flex;
     justify-content: space-around;
-    background-color: #333;
 }
 
 nav a {
@@ -36,7 +35,13 @@ footer {
     text-align: center;
 }
 
-/* Media Queries */
+.image-responsive {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%; 
+    height: auto; 
+}
+
 @media only screen and (max-width: 600px) {
     nav ul {
         flex-direction: column;
