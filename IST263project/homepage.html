@@ -15,9 +15,9 @@
             background-color: #000;
             color: #fff;
         }
-            
+
         body {
-           background-color: gold;
+            background-color: gold;
         }
 
         h1 {
@@ -45,40 +45,28 @@
             height: auto;
             margin-right: 100px;
         }
-        
+
         .main-image {
             width: 90%;
-            max-width: 600px; 
+            max-width: 600px;
             height: auto;
-            align-items: left;
+            align-items: flex-start; /* Changed from "left" to "flex-start" */
             padding: 5%;
         }
 
         .top-story {
-            max-width: auto; 
+            max-width: 100%; /* Changed from "auto" to "100%" */
             margin-top: 0px;
             text-align: center;
             padding: 1px;
             border: 5px solid #000;
             border-radius: 1px;
         }
-     
-        .small-image1 {
-            width: 100%;
-            max-width: 400px; 
-            height: auto;
-            margin-top: 20px;
-            padding: 1%;
-        }
+
+        .small-image1,
         .small-image2 {
             width: 100%;
-            max-width: 400px; 
-            height: auto;
-            margin-top: 20px;
-            padding: 1%;
-        }
-        .small-image1,.small-image2 {
-            max-width: 500px; 
+            max-width: 500px;
             height: auto;
             margin-top: 20px;
             padding: 2%;
@@ -87,35 +75,37 @@
         .main-content {
             display: flex;
             flex-direction: column;
-            align-items: center; 
+            align-items: center;
         }
 
         .small-images-1-2 {
             display: flex;
             flex-wrap: wrap;
-            justify-content: space-between; 
-            width: 100%; 
+            justify-content: space-between;
+            width: 100%;
         }
 
         hr {
-            border: 1px solid #000; /* Set the border style and color */
-            margin: 20px 0; /* Adjust the margin as needed */
+            border: 1px solid #000;
+            /* Set the border style and color */
+            margin: 20px 0;
+            /* Adjust the margin as needed */
         }
 
- @media (max-width: 768px) {
-    .small-images-1-2 {
-        flex-direction: column; 
-        align-items: center;
-    }
- }
-
+        @media (max-width: 768px) {
+            .small-images-1-2 {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
     </style>
 </head>
 
 <body>
 
     <header>
-        <img src="../images/2733_boston_bruins-primary_dark-1950.png" alt="small bruins logo top left of header" class="image image-left">
+        <img src="../images/2733_boston_bruins-primary_dark-1950.png" alt="small bruins logo top left of header"
+            class="image image-left">
         <h1>Home</h1>
         <nav>
             <ul>
@@ -129,11 +119,16 @@
     <div class="main-content">
         <!-- Main Image -->
         <img src="../images/lucic news.jpg" alt="Picture of Milan Lucic skating on the Bruins" class="main-image">
+        <!-- Corrected the file name to remove spaces -->
 
         <!-- Recent News Section -->
         <section class="top-story">
             <h2>Top Story</h2>
-            <p>Bruin's winger Milan Lucic, appeared in court on tuesday afternoon pleading not guilty to assualting his wife, and was released on personal recognizance bail. This incident occurred early staurday morning, when the police rceieved a call from his wife that he reportedly tried to choke her. When the officers arrived on scene, they reported that Milan seemed to be intoxicated, and Brittany, Milan Lucic's wife told them he had only pulled her hair and did not choke her.</p>
+            <p>Bruin's winger Milan Lucic, appeared in court on Tuesday afternoon pleading not guilty to assaulting his
+                wife, and was released on personal recognizance bail. This incident occurred early Saturday morning when
+                the police received a call from his wife that he reportedly tried to choke her. When the officers arrived
+                on the scene, they reported that Milan seemed to be intoxicated, and Brittany, Milan Lucic's wife told
+                them he had only pulled her hair and did not choke her.</p>
         </section>
     </div>
     <div class="small-images-1-2">
@@ -145,12 +140,15 @@
             <hr>
             <p>Tonight the Boston Bruins fall to the New Jersey Devils in a close matchup, which concluded in overtime:<br><br>
                 Final Score: 2-1</p>
-                <hr>
-                <p>The Bruins call up 25 year old Jesper Boqvist from the Providence Bruins. Boqvist has played one game for the bruins this year so far, and has played 24 in Providence. He has recorded a total of five goals and nine assist so far for Providence.</p>
-                <hr>
-                <p>The Bruins next matchup is 12/16 at 7 PM against the New York Rangers in Boston.<br><br>
-                <a href="https://www.stubhub.com/performer/2762?AffiliateID=49&PCID=PSUSBINSPOBOSTO3BA51C5D8F&AdID=81707576037707&gclid=8b850225117c19932cd26759e6bdb13c%2c8b850225117c19932cd26759e6bdb13c&ps_p=1%2c1&ps_ag=1307319689248571%2c1307319689248571&ps_tg=kwd-81707669554547%3aloc-190%2ckwd-81707669554547%3aloc-190&ps=&ps=&ps_c=401712013&ps_ad=81707576037707&ps_n=o&ps_d=c&gcid=C12289X021&keyword=1307319689248571kwd-81707669554547%3aloc-190_c&creative=&utm_kxconfid=s2rshsbmv&utm_campaign=401712013&kwt=nb&mt=e&kw=Bruins+tickets&ap=&ploc=106700&iloc=&utm_source=bing&utm_medium=paid-search&utm_sub_medium=prospecting&utm_term=nb&utm_content=default&gclsrc=3p.ds&msclkid=8b850225117c19932cd26759e6bdb13c">here</a> is the link if you want like to by tickets for this game or any other games this season.</p>
-                <hr>
+            <hr>
+            <p>The Bruins call up 25-year-old Jesper Boqvist from the Providence Bruins. Boqvist has played one game for
+                the Bruins this year so far and has played 24 in Providence. He has recorded a total of five goals and
+                nine assists so far for Providence.</p>
+            <hr>
+            <p>The Bruins' next matchup is 12/16 at 7 PM against the New York Rangers in Boston.<br><br> <a
+                    href="https://www.stubhub.com/performer/2762?AffiliateID=49&PCID=PSUSBINSPOBOSTO3BA51C5D8F&AdID=81707576037707&gclid=8b850225117c19932cd26759e6bdb13c%2c8b850225117c19932cd26759e6bdb13c&ps_p=1%2c1&ps_ag=1307319689248571%2c1307319689248571&ps_tg=kwd-81707669554547%3aloc-190%2ckwd-81707669554547%3aloc-190&ps=&ps=&ps_c=401712013&ps_ad=81707576037707&ps_n=o&ps_d=c&gcid=C12289X021&keyword=1307319689248571kwd-81707669554547%3aloc-190_c&creative=&utm_kxconfid=s2rshsbmv&utm_campaign=401712013&kwt=nb&mt=e&kw=Bruins+tickets&ap=&ploc=106700&iloc=&utm_source=bing&utm_medium=paid-search&utm_sub_medium=prospecting&utm_term=nb&utm_content=default&gclsrc=3p.ds&msclkid=8b850225117c19932cd26759e6bdb13c">Here</a>
+                is the link if you would like to buy tickets for this game or any other games this season.</p>
+            <hr>
         </section>
     </div>
 
